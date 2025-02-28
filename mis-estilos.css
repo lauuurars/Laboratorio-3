@@ -17,6 +17,7 @@ body {
     margin-top: 100px;
     text-align: center;
     padding-top: 25px;
+    box-shadow: 0px 10px 50px rgba(39,39,39);
 }
 
 .campo{
@@ -50,15 +51,41 @@ button{
     border: none;
 }
 
+.login-btn:hover{
+    opacity: 0.5;
+}
+
+.redes{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    list-style: none;
+    gap: 20px;
+}
+
 .social1{
-    color: blue;
-    font-size: 50px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
 }
 
 .social2{
-    color: #00acee;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    border-radius: 100%;
 }
 
 .social3{
-    color: red;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
 }
