@@ -1,0 +1,51 @@
+body {
+    font-family: Nunito;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-items: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: azure;
+    border-radius: 15px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.campo{
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.campo input{
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
+
+.campo .icono{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    color: grey;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    border: none;
+}
